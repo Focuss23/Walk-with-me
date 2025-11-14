@@ -1,0 +1,20 @@
+---
+title: "Welcome To My Blog"
+author: "Lloyd Adu-Kumi"
+date: "2025-11-14"
+categories: 
+---
+
+## My first post to kick things
+
+This is a journey where i focus on these interest areas (The list will be updated as and when the interest arrives):
+
+1.  Statistics in Food
+
+2.  Statistics in Epidemiology Health
+
+3.  Nutritional health
+
+4.  Think pieces
+
+So... Walk with me
