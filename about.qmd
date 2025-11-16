@@ -19,11 +19,11 @@ Welcome to my journey. A place where I document the things I’m learning, unlea
 
 Here, I dive into:
 
-**Statistics in Food** — making sense of data behind what we eat and how it’s produced.
+**Statistics in Food:** making sense of data behind what we eat and how it’s produced.
 
-**Statistics in Epidemiology & Health** — understanding patterns, risks, and the numbers that influence public health decisions.
+**Statistics in Epidemiology & Health:** understanding patterns, risks, and the numbers that influence public health decisions.
 
-**Think Pieces** — reflections on life, purpose, growth, and the world around me.
+**Think Pieces:** reflections on life, purpose, growth, and the world around me.
 
 This blog is my evolving notebook — a place where curiosity leads, insights grow, and new interests join the journey as they come. We’ll learn, reflect, and discover together.
 
