@@ -6,7 +6,7 @@ categories: [Food Statistics, Analysis]
 image: true
 ---
 
-## My first post to kick things - FS01
+## My first post to kick things - FSt.01
 
 ![](image.png){fig-alt="Let's begin!" fig-align="center" width="432"}
 
