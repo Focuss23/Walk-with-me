@@ -1,20 +1,19 @@
 ---
-title: "Welcome To My Blog"
+title: "BBQ production statistics FSt.01"
 author: "Lloyd Adu-Kumi"
 date: "2025-11-14"
-categories: 
+categories: [Food Statistics, Analysis]
+image: true
 ---
 
-## My first post to kick things
+## My first post to kick things - FS01
 
-This is a journey where i focus on these interest areas (The list will be updated as and when the interest arrives):
+![](image.png){fig-alt="Let's begin!" fig-align="center" width="432"}
 
-1.  Statistics in Food
+# Statistics for Food Scientists -Making Sense of the Numbers
 
-2.  Statistics in Epidemiology Health
+Statistics for Food Scientists
 
-3.  Nutritional health
+***Book Summary:***
 
-4.  Think pieces
-
-So... Walk with me
+This book follows the journey of Maria, a young food scientist stepping into her first industry role at a historic BBQ sauce company facing quality challenges. Through Maria’s onboarding, mentorship, and hands-on project work, the book introduces readers to the practical world of statistical thinking in food science, from understanding consumer feedback to analyzing process capability, product consistency, and quality improvement. Guided by experienced scientists like Steve and supported by cross-functional teams, Maria learns how statistical tools become everyday problem-solving companions in product development and food manufacturing. The book blends storytelling with real-world analytical concepts, making statistics feel accessible, relevant, and essential for anyone working in food quality, R&D, or production. I am going to be Maria in this case, following the book closely using AI generated data to analyse. The code will be available to follow as well. You can also get the book from Amazon [here](#0 "Statistics for Food Scientists: Making Sense of the Numbers"). Let's start!

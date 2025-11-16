@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: about.png
 about:
   template: jolla
   links:
@@ -13,7 +13,21 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+Welcome to my journey. A place where I document the things I’m learning, unlearning, questioning, and exploring.
+
+I’m walking a path shaped by my **think pieces, food statistics and** **epidemiology**. Here, I dive into:
+
+-    **Statistics in Food** — making sense of data behind what we eat and how it’s produced.
+
+-    **Statistics in Epidemiology & Health** — understanding patterns, risks, and the numbers that influence public health decisions.
+
+-    **Nutritional Health** — exploring how food shapes well-being, communities, and everyday choices.
+
+-    **Think Pieces** — reflections on life, purpose, growth, and the world around me.
+
+This blog is my evolving notebook — a place where curiosity leads, insights grow, and new interests join the journey as they come.
+
+So… walk with me.\
+We’ll learn, reflect, and discover together.

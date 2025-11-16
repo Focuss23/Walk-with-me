@@ -2,7 +2,7 @@
 title: "Post With Code"
 author: "Harlow Malloc"
 date: "2025-11-14"
-categories: [news, code, analysis]
+categories: [Food Statistics, Food Science]
 image: "image.jpg"
 ---
 

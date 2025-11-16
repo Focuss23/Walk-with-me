@@ -1,35 +1,21 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is a journey where i focus on these interest areas (The list will be updated as and when the interest arrives):\n\nStatistics in Food\nStatistics in Epidemiology Health\nNutritional health\nThink pieces\n\nSo… Walk with me"
-  },
-  {
-    "objectID": "posts/welcome/index.html#my-first-post-to-kick-things",
-    "href": "posts/welcome/index.html#my-first-post-to-kick-things",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is a journey where i focus on these interest areas (The list will be updated as and when the interest arrives):\n\nStatistics in Food\nStatistics in Epidemiology Health\nNutritional health\nThink pieces\n\nSo… Walk with me"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Walk with me",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nLloyd Adu-Kumi\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\nFood Statistics\n\nFood Science\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nBBQ production statistics FSt.01\n\n\n\nFood Statistics\n\nAnalysis\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nLloyd Adu-Kumi\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Welcome to my journey. A place where I document the things I’m learning, unlearning, questioning, and exploring.\nI’m walking a path shaped by my think pieces, food statistics and epidemiology. Here, I dive into:\n\nStatistics in Food — making sense of data behind what we eat and how it’s produced.\nStatistics in Epidemiology & Health — understanding patterns, risks, and the numbers that influence public health decisions.\nNutritional Health — exploring how food shapes well-being, communities, and everyday choices.\nThink Pieces — reflections on life, purpose, growth, and the world around me.\n\nThis blog is my evolving notebook — a place where curiosity leads, insights grow, and new interests join the journey as they come.\nSo… walk with me.\nWe’ll learn, reflect, and discover together."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posts/Introduction to Food Statistics/index.html",
+    "href": "posts/Introduction to Food Statistics/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
