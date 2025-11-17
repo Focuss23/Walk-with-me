@@ -1,0 +1,51 @@
+---
+title: "Descriptive statistics and Graphical Analysis FSt.02"
+author: "Lloyd Adu-Kumi"
+date: "2025-11-14"
+categories: [Food Statistics, Analysis]
+image: true
+---
+
+## Descriptive Statistics
+
+Statistics for Food Scientists
+
+***Chapter Commentary:***
+
+Maria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to production data to confirm whether the new system truly improves performance.
+
+To describe our data, we utilise summary statistics to give an idea of viscouscity levels in the individual production line. I love R and python, but let's try R for this book😊!
+
+Let's first import our mock data
+
+```{r}
+#| label: Load Data
+#| message: false
+#load packages
+pacman::p_load(
+  rio,  #for importing data
+  here, #for relative file paths
+  skimr, #for reviewing the data
+  lubridate, # for date cleaning
+  janitor, #for cleaning data
+  flextable, #for making pretty tables
+  gtsummary, # creating tables
+  scales, #percents in tables
+  tidyverse #for data management and viz
+)
+
+#Import Data
+bbq <- import("wwm.xlsx") %>% 
+  clean_names() #to standardize the names of the columns
+  
+head(bbq) #Let's return the top 6 rows
+ 
+```
+
+Some summary statistics explored in the book include the:
+
+| Measure of Central location | What is it?                       |
+|-----------------------------|-----------------------------------|
+| Mean                        | Mathematical Average              |
+| Median                      | Middle value. The 50th percentile |
+| Mode                        | Most frequently occurring value   |

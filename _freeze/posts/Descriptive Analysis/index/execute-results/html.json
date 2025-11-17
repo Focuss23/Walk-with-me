@@ -1,0 +1,15 @@
+{
+  "hash": "54c1d74cc1e569a2ac9a82a3b20fda8c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Descriptive statistics and Graphical Analysis FSt.02\"\nauthor: \"Lloyd Adu-Kumi\"\ndate: \"2025-11-14\"\ncategories: [Food Statistics, Analysis]\nimage: true\n---\n\n## Descriptive Statistics\n\nStatistics for Food Scientists\n\n***Chapter Commentary:***\n\nMaria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to production data to confirm whether the new system truly improves performance.\n\nTo describe our data, we utilise summary statistics to give an idea of viscouscity levels in the individual production line. I love R and python, but let's try R for this book😊!\n\nLet's first import our mock data\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#load packages\npacman::p_load(\n  rio,  #for importing data\n  here, #for relative file paths\n  skimr, #for reviewing the data\n  lubridate, # for date cleaning\n  janitor, #for cleaning data\n  flextable, #for making pretty tables\n  gtsummary, # creating tables\n  scales, #percents in tables\n  tidyverse #for data management and viz\n)\n\n#Import Data\nbbq <- import(\"wwm.xlsx\") %>% \n  clean_names()  #to standardize the names of the columns\n```\n:::\n\n\nSome summary statistics explored in the book include the:\n\n| Measure of Central location | What is it?                       |\n|-----------------------------|-----------------------------------|\n| Mean                        | Mathematical Average              |\n| Median                      | Middle value. The 50th percentile |\n| Mode                        | Most frequently occurring value   |\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

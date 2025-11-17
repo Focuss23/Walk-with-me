@@ -1,17 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Walk with me",
+    "objectID": "posts/Descriptive Analysis/index.html",
+    "href": "posts/Descriptive Analysis/index.html",
+    "title": "Descriptive statistics and Graphical Analysis FSt.02",
     "section": "",
-    "text": "Post With Code\n\n\n\nFood Statistics\n\nFood Science\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nBBQ production statistics FSt.01\n\n\n\nFood Statistics\n\nAnalysis\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nLloyd Adu-Kumi\n\n\n\n\n\nNo matching items"
+    "text": "Statistics for Food Scientists\nChapter Commentary:\nMaria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to production data to confirm whether the new system truly improves performance.\nTo describe our data, we utilise summary statistics to give an idea of viscouscity levels in the individual production line. I love R and python, but let’s try R for this book😊!\nLet’s first import our mock data\n\n#load packages\npacman::p_load(\n  rio,  #for importing data\n  here, #for relative file paths\n  skimr, #for reviewing the data\n  lubridate, # for date cleaning\n  janitor, #for cleaning data\n  flextable, #for making pretty tables\n  gtsummary, # creating tables\n  scales, #percents in tables\n  tidyverse #for data management and viz\n)\n\n#Import Data\nbbq &lt;- import(\"wwm.xlsx\") %&gt;% \n  clean_names()  #to standardize the names of the columns\n\nSome summary statistics explored in the book include the:\n\n\n\nMeasure of Central location\nWhat is it?\n\n\n\n\nMean\nMathematical Average\n\n\nMedian\nMiddle value. The 50th percentile\n\n\nMode\nMost frequently occurring value"
+  },
+  {
+    "objectID": "posts/Descriptive Analysis/index.html#descriptive-statistics",
+    "href": "posts/Descriptive Analysis/index.html#descriptive-statistics",
+    "title": "Descriptive statistics and Graphical Analysis FSt.02",
+    "section": "",
+    "text": "Statistics for Food Scientists\nChapter Commentary:\nMaria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to production data to confirm whether the new system truly improves performance.\nTo describe our data, we utilise summary statistics to give an idea of viscouscity levels in the individual production line. I love R and python, but let’s try R for this book😊!\nLet’s first import our mock data\n\n#load packages\npacman::p_load(\n  rio,  #for importing data\n  here, #for relative file paths\n  skimr, #for reviewing the data\n  lubridate, # for date cleaning\n  janitor, #for cleaning data\n  flextable, #for making pretty tables\n  gtsummary, # creating tables\n  scales, #percents in tables\n  tidyverse #for data management and viz\n)\n\n#Import Data\nbbq &lt;- import(\"wwm.xlsx\") %&gt;% \n  clean_names()  #to standardize the names of the columns\n\nSome summary statistics explored in the book include the:\n\n\n\nMeasure of Central location\nWhat is it?\n\n\n\n\nMean\nMathematical Average\n\n\nMedian\nMiddle value. The 50th percentile\n\n\nMode\nMost frequently occurring value"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Welcome to my journey. A place where I document the things I’m learning, unlearning, questioning, and exploring. I’m walking a path shaped by my think pieces, food statistics and epidemiology.\nHere, I dive into:\nStatistics in Food — making sense of data behind what we eat and how it’s produced.\nStatistics in Epidemiology & Health — understanding patterns, risks, and the numbers that influence public health decisions.\nThink Pieces — reflections on life, purpose, growth, and the world around me.\nThis blog is my evolving notebook — a place where curiosity leads, insights grow, and new interests join the journey as they come. We’ll learn, reflect, and discover together.\nSo… walk with me."
+    "text": "Welcome to my journey. A place where I document the things I’m learning, unlearning, questioning, and exploring. I’m walking a path shaped by my think pieces, food statistics and epidemiology.\nHere, I dive into:\nStatistics in Food: making sense of data behind what we eat and how it’s produced.\nStatistics in Epidemiology & Health: understanding patterns, risks, and the numbers that influence public health decisions.\nThink Pieces: reflections on life, purpose, growth, and the world around me.\nThis blog is my evolving notebook — a place where curiosity leads, insights grow, and new interests join the journey as they come. We’ll learn, reflect, and discover together.\nSo… walk with me."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Walk with me",
+    "section": "",
+    "text": "Descriptive statistics and Graphical Analysis FSt.02\n\n\n\nFood Statistics\n\nAnalysis\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nLloyd Adu-Kumi\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nFood Statistics\n\nFood Science\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nBBQ production statistics FSt.01\n\n\n\nFood Statistics\n\nAnalysis\n\n\n\n\n\n\n\n\n\nNov 14, 2025\n\n\nLloyd Adu-Kumi\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Introduction to Food Statistics/index.html",
