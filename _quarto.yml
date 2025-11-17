@@ -11,6 +11,8 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+      - icon: linkedin
+        href: www.linkedin.com/in/lloyd-adu-kumi
 format:
   html:
     theme:
