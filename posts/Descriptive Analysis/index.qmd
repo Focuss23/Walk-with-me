@@ -12,9 +12,9 @@ Statistics for Food Scientists
 
 ***Chapter Commentary:***
 
-Maria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to production data to confirm whether the new system truly improves performance.
+Maria is given a tour of the BBQ sauce production plant to understand how manufacturing works (Understanding the food production flow makes the data more relatable!😉). The plant manager, Lisa, takes her from ingredient handling to mixing, heating, filling, and hourly viscosity checks for quality control. Lisa introduces a new high-speed filling line and asks Maria to produce data to confirm whether the new system truly improves performance.
 
-To describe our data, we utilise summary statistics to give an idea of viscouscity levels in the individual production line. I love R and python, but let's try R for this book😊!
+To describe our data, we utilise summary statistics to give an idea of viscosity levels in the individual production line. I love R and Python, but let's try R for this book😊!
 
 Let's first import our mock data
 
@@ -31,21 +31,73 @@ pacman::p_load(
   flextable, #for making pretty tables
   gtsummary, # creating tables
   scales, #percents in tables
+  readxl,
+  moments,
   tidyverse #for data management and viz
+  
 )
 
 #Import Data
 bbq <- import("wwm.xlsx") %>% 
-  clean_names() #to standardize the names of the columns
-  
+  clean_names() %>%   #to standardize the names of the columns
+  mutate(
+    across(
+      starts_with("date"),
+      ~ mdy_hm(.)
+    )
+  )
 head(bbq) #Let's return the top 6 rows
  
 ```
 
-Some summary statistics explored in the book include the:
+Maybe we could pivot_longer to consolidate the data points
 
-| Measure of Central location | What is it?                       |
-|-----------------------------|-----------------------------------|
-| Mean                        | Mathematical Average              |
-| Median                      | Middle value. The 50th percentile |
-| Mode                        | Most frequently occurring value   |
+```{r}
+bbq <- bbq %>% 
+  pivot_longer(
+    cols = starts_with("line"),
+    names_to = "line",
+    values_to = "viscosity"
+  ) %>% 
+  pivot_longer(
+    cols = starts_with("date"),
+    names_to = NULL,
+    values_to = "date"
+  ) 
+
+```
+
+Let's visualize the data into histograms
+
+```{r}
+#| label: Histogram Chunk
+#| message: false
+#| warning: false
+ggplot(data = bbq,
+       mapping = aes(
+         x = viscosity
+       ))+
+  geom_histogram(bins = 10, fill = "lightblue")+
+  labs(
+    y = "Frequency"
+  )+
+  facet_wrap(~line)+
+  theme_minimal()
+
+```
+
+```{r}
+bbq %>% 
+  group_by(line) %>% 
+  summarise(
+   Mean = mean(viscosity),
+    Median = median(viscosity),
+    `Standard deviation` = sd(viscosity),
+    Kurtosis = kurtosis(viscosity),
+    Skewness = skewness(viscosity),
+    Range = max(viscosity) - min(viscosity),
+    Minimum = min(viscosity),
+    Maximum = max(viscosity)
+  ) %>% 
+  qflextable()
+```
