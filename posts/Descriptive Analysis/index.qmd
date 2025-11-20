@@ -65,6 +65,7 @@ bbq <- bbq %>%
     values_to = "date"
   ) 
 
+head(bbq)
 ```
 
 Let's visualize the data into histograms

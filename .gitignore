@@ -2,6 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-
+_freeze
 /.quarto/
-_freeze/
+
